@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.10)
-project(Lab2)
+project(Lab1)
 
 set(CMAKE_C_STANDARD 99)
 set(CMAKE_CXX_STANDARD 17)
@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD 17)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 
-add_executable(Lab2
+add_executable(Lab1
         source/SkewTree.c)
 
 # Подключение GoogleTest
